@@ -1,0 +1,617 @@
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE DATABASE "rails_react_recipe_development" ENCODING = 'unicode'[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE "rails_react_recipe_test" ENCODING = 'unicode'[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (113.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "rails_react_recipe_development"[0m
+  [1m[35m (110.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "rails_react_recipe_test"[0m
+  [1m[35m (384.9ms)[0m  [1m[35mCREATE DATABASE "rails_react_recipe_development" ENCODING = 'unicode'[0m
+  [1m[35m (412.1ms)[0m  [1m[35mCREATE DATABASE "rails_react_recipe_test" ENCODING = 'unicode'[0m
+Started GET "/recipes" for 10.0.2.2 at 2022-03-18 05:41:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/recipes"):
+  
+Started GET "/" for 10.0.2.2 at 2022-03-18 05:41:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vagrant/.rvm/gems/ruby-2.7.5/gems/railties-6.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vagrant/.rvm/gems/ruby-2.7.5/gems/railties-6.1.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 20.3ms | Allocations: 219)
+Completed 200 OK in 54ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 4706)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 05:41:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vagrant/.rvm/gems/ruby-2.7.5/gems/railties-6.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vagrant/.rvm/gems/ruby-2.7.5/gems/railties-6.1.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.4ms | Allocations: 218)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3597)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 05:49:46 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 216)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] Hash: 6451e0ea68d2f3e246e2
+Version: webpack 4.46.0
+Time: 30088ms
+Built at: 03/18/2022 5:50:30 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-c8320eac8423d85e2936.js   1.09 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-c8320eac8423d85e2936.js.map   1.26 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+Entrypoint hello_react = js/hello_react-c8320eac8423d85e2936.js js/hello_react-c8320eac8423d85e2936.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 19 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 43634.8ms | Allocations: 17200)
+Completed 200 OK in 43694ms (Views: 43657.1ms | ActiveRecord: 0.0ms | Allocations: 22328)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 05:55:14 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 33f76b7f110e832915a3
+Version: webpack 4.46.0
+Time: 39969ms
+Built at: 03/18/2022 5:56:06 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-cc1b2d95a1a33f71f970.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-cc1b2d95a1a33f71f970.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+Entrypoint Index = js/Index-cc1b2d95a1a33f71f970.js js/Index-cc1b2d95a1a33f71f970.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 748 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/routes/Index.jsx 12:36-42
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/components/App.jsx
+ @ ./app/javascript/packs/Index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 52758.8ms | Allocations: 9085)
+Completed 200 OK in 52761ms (Views: 52760.7ms | ActiveRecord: 0.0ms | Allocations: 9582)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 05:57:10 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] Hash: 916530fe7e2600109aeb
+Version: webpack 4.46.0
+Time: 41170ms
+Built at: 03/18/2022 5:58:03 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-5ed38ac62f39691db25c.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-5ed38ac62f39691db25c.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+Entrypoint Index = js/Index-5ed38ac62f39691db25c.js js/Index-5ed38ac62f39691db25c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 748 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 25 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 53130.7ms | Allocations: 4975)
+Completed 200 OK in 53133ms (Views: 53131.8ms | ActiveRecord: 0.0ms | Allocations: 5354)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:04:49 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 213)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] Hash: 916530fe7e2600109aeb
+Version: webpack 4.46.0
+Time: 34642ms
+Built at: 03/18/2022 6:05:36 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-5ed38ac62f39691db25c.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-5ed38ac62f39691db25c.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+Entrypoint Index = js/Index-5ed38ac62f39691db25c.js js/Index-5ed38ac62f39691db25c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 748 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 25 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47677.9ms | Allocations: 11213)
+Completed 200 OK in 47722ms (Views: 47693.7ms | ActiveRecord: 0.0ms | Allocations: 13753)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:06:12 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 111.8ms | Allocations: 5627)
+Completed 200 OK in 114ms (Views: 112.6ms | ActiveRecord: 0.0ms | Allocations: 6007)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:09:38 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 213)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-3dd0dc24d9c39bc09227.js
+clean-webpack-plugin: removed public/packs/js/application-3dd0dc24d9c39bc09227.js.map
+clean-webpack-plugin: removed public/packs/js/Index-5ed38ac62f39691db25c.js
+clean-webpack-plugin: removed public/packs/js/Index-5ed38ac62f39691db25c.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 2be494158fdd14036982
+Version: webpack 4.46.0
+Time: 33767ms
+Built at: 03/18/2022 6:10:27 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-5ed38ac62f39691db25c.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-5ed38ac62f39691db25c.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-d20214fbbe3cae23d776.js   4.39 KiB  application  [emitted] [immutable]  application
+js/application-d20214fbbe3cae23d776.js.map   4.15 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-d20214fbbe3cae23d776.js js/application-d20214fbbe3cae23d776.js.map
+Entrypoint Index = js/Index-5ed38ac62f39691db25c.js js/Index-5ed38ac62f39691db25c.js.map
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 506 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 748 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 22 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49271.1ms | Allocations: 9344)
+Completed 200 OK in 49325ms (Views: 49289.5ms | ActiveRecord: 0.0ms | Allocations: 11885)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:21:44 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js.map
+clean-webpack-plugin: removed public/packs/js/Index-5ed38ac62f39691db25c.js
+clean-webpack-plugin: removed public/packs/js/Index-5ed38ac62f39691db25c.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 91bfb4a2fdc32fd6d036
+Version: webpack 4.46.0
+Time: 40597ms
+Built at: 03/18/2022 6:22:37 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-6a0cfa242690fa408581.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-6a0cfa242690fa408581.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-d20214fbbe3cae23d776.js   4.39 KiB  application  [emitted] [immutable]  application
+js/application-d20214fbbe3cae23d776.js.map   4.15 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-d20214fbbe3cae23d776.js js/application-d20214fbbe3cae23d776.js.map
+Entrypoint Index = js/Index-6a0cfa242690fa408581.js js/Index-6a0cfa242690fa408581.js.map
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 506 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 901 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 22 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53437.5ms | Allocations: 7055)
+Completed 200 OK in 53439ms (Views: 53438.5ms | Allocations: 7435)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:23:07 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 103.0ms | Allocations: 5626)
+Completed 200 OK in 105ms (Views: 104.3ms | Allocations: 6006)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:23:35 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js.map
+clean-webpack-plugin: removed public/packs/js/Index-6a0cfa242690fa408581.js
+clean-webpack-plugin: removed public/packs/js/Index-6a0cfa242690fa408581.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 5333331a6de7a28d68f3
+Version: webpack 4.46.0
+Time: 33580ms
+Built at: 03/18/2022 6:24:17 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-723c4f83a82d03a8a631.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-723c4f83a82d03a8a631.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-d20214fbbe3cae23d776.js   4.39 KiB  application  [emitted] [immutable]  application
+js/application-d20214fbbe3cae23d776.js.map   4.15 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-d20214fbbe3cae23d776.js js/application-d20214fbbe3cae23d776.js.map
+Entrypoint Index = js/Index-723c4f83a82d03a8a631.js js/Index-723c4f83a82d03a8a631.js.map
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 506 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 901 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 22 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42877.0ms | Allocations: 7035)
+Completed 200 OK in 42880ms (Views: 42879.3ms | Allocations: 7409)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:26:53 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 201)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 258.8ms | Allocations: 7885)
+Completed 200 OK in 353ms (Views: 310.4ms | ActiveRecord: 0.0ms | Allocations: 10426)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:29:22 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js.map
+clean-webpack-plugin: removed public/packs/js/Index-723c4f83a82d03a8a631.js
+clean-webpack-plugin: removed public/packs/js/Index-723c4f83a82d03a8a631.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 3a770c3e8543c2350bec
+Version: webpack 4.46.0
+Time: 37082ms
+Built at: 03/18/2022 6:30:14 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-fd8d0e1e020e2843d1c1.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-fd8d0e1e020e2843d1c1.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-d20214fbbe3cae23d776.js   4.39 KiB  application  [emitted] [immutable]  application
+js/application-d20214fbbe3cae23d776.js.map   4.15 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-d20214fbbe3cae23d776.js js/application-d20214fbbe3cae23d776.js.map
+Entrypoint Index = js/Index-fd8d0e1e020e2843d1c1.js js/Index-fd8d0e1e020e2843d1c1.js.map
+[./app/javascript/packs/Index.jsx] 707 bytes {Index} [built]
+[./app/javascript/packs/application.js] 506 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 901 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 22 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51763.9ms | Allocations: 7086)
+Completed 200 OK in 51766ms (Views: 51765.4ms | ActiveRecord: 0.0ms | Allocations: 7466)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:31:53 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js.map
+clean-webpack-plugin: removed public/packs/js/Index-fd8d0e1e020e2843d1c1.js
+clean-webpack-plugin: removed public/packs/js/Index-fd8d0e1e020e2843d1c1.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: fd339624e5225143a196
+Version: webpack 4.46.0
+Time: 30908ms
+Built at: 03/18/2022 6:32:34 AM
+                               Asset       Size  Chunks                         Chunk Names
+    js/Index-723c4f83a82d03a8a631.js   2.43 MiB   Index  [emitted] [immutable]  Index
+js/Index-723c4f83a82d03a8a631.js.map    2.7 MiB   Index  [emitted] [dev]        Index
+                       manifest.json  322 bytes          [emitted]              
+Entrypoint Index = js/Index-723c4f83a82d03a8a631.js js/Index-723c4f83a82d03a8a631.js.map
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/routes/Index.jsx] 901 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 22 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 41275.4ms | Allocations: 8314)
+Completed 500 Internal Server Error in 41278ms (ActiveRecord: 0.0ms | Allocations: 8665)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "Index.js": "/packs/js/Index-723c4f83a82d03a8a631.js",
+  "Index.js.map": "/packs/js/Index-723c4f83a82d03a8a631.js.map",
+  "entrypoints": {
+    "Index": {
+      "js": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js"
+      ],
+      "js.map": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js.map"
+      ]
+    }
+  }
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    12:     <%= javascript_pack_tag 'Index' %>
+    13:   </head>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:34:20 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 171.4ms | Allocations: 6873)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.0ms | Allocations: 9381)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "Index.js": "/packs/js/Index-723c4f83a82d03a8a631.js",
+  "Index.js.map": "/packs/js/Index-723c4f83a82d03a8a631.js.map",
+  "entrypoints": {
+    "Index": {
+      "js": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js"
+      ],
+      "js.map": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js.map"
+      ]
+    }
+  }
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    12:     <%= javascript_pack_tag 'Index' %>
+    13:   </head>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:36:59 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.4ms | Allocations: 4478)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.0ms | Allocations: 4914)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "Index.js": "/packs/js/Index-723c4f83a82d03a8a631.js",
+  "Index.js.map": "/packs/js/Index-723c4f83a82d03a8a631.js.map",
+  "entrypoints": {
+    "Index": {
+      "js": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js"
+      ],
+      "js.map": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js.map"
+      ]
+    }
+  }
+}
+):
+     7:     <%= csp_meta_tag %>
+     8:     
+     9:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    10:     <%= javascript_pack_tag 'Index' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:37:02 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 110.1ms | Allocations: 4340)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms | Allocations: 4691)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "Index.js": "/packs/js/Index-723c4f83a82d03a8a631.js",
+  "Index.js.map": "/packs/js/Index-723c4f83a82d03a8a631.js.map",
+  "entrypoints": {
+    "Index": {
+      "js": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js"
+      ],
+      "js.map": [
+        "/packs/js/Index-723c4f83a82d03a8a631.js.map"
+      ]
+    }
+  }
+}
+):
+     7:     <%= csp_meta_tag %>
+     8:     
+     9:     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    10:     <%= javascript_pack_tag 'Index' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:38:05 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/Index-723c4f83a82d03a8a631.js
+clean-webpack-plugin: removed public/packs/js/Index-723c4f83a82d03a8a631.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 5333331a6de7a28d68f3
+Version: webpack 4.46.0
+Time: 35367ms
+Built at: 03/18/2022 6:38:54 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-723c4f83a82d03a8a631.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-723c4f83a82d03a8a631.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-d20214fbbe3cae23d776.js   4.39 KiB  application  [emitted] [immutable]  application
+js/application-d20214fbbe3cae23d776.js.map   4.15 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-d20214fbbe3cae23d776.js js/application-d20214fbbe3cae23d776.js.map
+Entrypoint Index = js/Index-723c4f83a82d03a8a631.js js/Index-723c4f83a82d03a8a631.js.map
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 506 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 901 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 22 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49654.9ms | Allocations: 7097)
+Completed 200 OK in 49658ms (Views: 49656.7ms | ActiveRecord: 0.0ms | Allocations: 7480)
+
+
+Started GET "/" for 10.0.2.2 at 2022-03-18 06:40:01 +0000
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js
+clean-webpack-plugin: removed public/packs/js/application-d20214fbbe3cae23d776.js.map
+clean-webpack-plugin: removed public/packs/js/Index-723c4f83a82d03a8a631.js
+clean-webpack-plugin: removed public/packs/js/Index-723c4f83a82d03a8a631.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 917e4e06dde0a6f123ed
+Version: webpack 4.46.0
+Time: 27357ms
+Built at: 03/18/2022 6:40:39 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-723c4f83a82d03a8a631.js   2.43 MiB        Index  [emitted] [immutable]  Index
+      js/Index-723c4f83a82d03a8a631.js.map    2.7 MiB        Index  [emitted] [dev]        Index
+    js/application-3dd0dc24d9c39bc09227.js    125 KiB  application  [emitted] [immutable]  application
+js/application-3dd0dc24d9c39bc09227.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-3dd0dc24d9c39bc09227.js js/application-3dd0dc24d9c39bc09227.js.map
+Entrypoint Index = js/Index-723c4f83a82d03a8a631.js js/Index-723c4f83a82d03a8a631.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 666 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 901 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 25 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37854.4ms | Allocations: 7030)
+Completed 200 OK in 37857ms (Views: 37855.7ms | Allocations: 7409)
+
+
