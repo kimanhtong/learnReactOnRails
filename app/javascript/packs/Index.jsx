@@ -12,3 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(document.createElement("div"))
   );
 });
+// render(
+//   <App />,
+//   document.getElementById("root")
+// );
