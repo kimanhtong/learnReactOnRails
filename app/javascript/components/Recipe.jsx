@@ -89,7 +89,7 @@ const Recipe = () => {
             />
           </div>
           <div className="col-sm-12 col-lg-2">
-            <button type="button" className="btn btn-secondary" size='lg' onClick={()=>navigate(`/recipe/edit/${id}`)} >
+            <button type="button" className="btn btn-warning" size='lg' onClick={()=>navigate(`/recipe/edit/${id}`)} >
               Edit   Recipe
             </button>
             <button type="button" className="btn btn-danger" size='lg' onClick={deleteRecipe}>

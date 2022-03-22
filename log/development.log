@@ -38144,3 +38144,273 @@ Processing by Api::V1::RecipesController#index as */*
 Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 1.7ms | Allocations: 2239)
 
 
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:04:39 +0000
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 36ms (Views: 8.0ms | ActiveRecord: 5.5ms | Allocations: 7641)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-22 15:04:49 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 3.9ms | Allocations: 1734)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:05:01 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 3.4ms | Allocations: 2335)
+
+
+Started GET "/api/v1/show/3" for 10.0.2.2 at 2022-03-22 15:05:04 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 2.3ms | Allocations: 1023)
+
+
+Started DELETE "/api/v1/destroy/3" for 10.0.2.2 at 2022-03-22 15:05:09 +0000
+Processing by Api::V1::RecipesController#destroy as */*
+  Parameters: {"id"=>"3", "recipe"=>{}}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:34:in `destroy'
+  [1m[36mRecipe Destroy (1.6ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:34:in `destroy'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:34:in `destroy'
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 5.8ms | Allocations: 2793)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:05:09 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 2.1ms | Allocations: 2131)
+
+
+Started GET "/api/v1/show/1" for 10.0.2.2 at 2022-03-22 15:06:35 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 1.0ms | Allocations: 1023)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:37:12 +0000
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 69ms (Views: 8.4ms | ActiveRecord: 10.1ms | Allocations: 7528)
+
+
+Started GET "/api/v1/show/26" for 10.0.2.2 at 2022-03-22 15:37:22 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"26"}
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 16ms (Views: 1.1ms | ActiveRecord: 4.2ms | Allocations: 1713)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:38:39 +0000
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 63ms (Views: 12.7ms | ActiveRecord: 9.3ms | Allocations: 7528)
+
+
+Started GET "/api/v1/show/26" for 10.0.2.2 at 2022-03-22 15:38:45 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"26"}
+  [1m[36mRecipe Load (2.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 18ms (Views: 1.4ms | ActiveRecord: 5.2ms | Allocations: 1710)
+
+
+Started GET "/api/v1/show/26" for 10.0.2.2 at 2022-03-22 15:39:22 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"26"}
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 1151)
+
+
+Started POST "/api/v1/update/26" for 10.0.2.2 at 2022-03-22 15:40:20 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"Corned Beef Roast", "ingredients"=>"1 (5 1/2 pound) corned beef brisket with spice packet, 7 small potatoes, peeled and diced 4 carrots, peeled and diced 3 cloves garlic, chopped 1 medium onion, diced", "instruction"=>"Step 1:<br> <br>Preheat the oven to 300 degrees F (150 degrees C).<br> <br>Step 2:<br> <br>Place the brisket in the center of a roasting pan. Arrange the potatoes and carrots around the sides. Place the onion and garlic on top of the roast, and season with salt and pepper. Empty the seasoning packet over the roast, and pour enough water into the pan to almost cover the potatoes. Cover with a lid or heavy aluminum foil.<br> <br>Step 3:<br> <br>Roast for 5 to 6 hours in the preheated oven, until the roast is so tender it can be flaked apart with a fork.", "id"=>"26", "recipe"=>{"name"=>"Corned Beef Roast", "ingredients"=>"1 (5 1/2 pound) corned beef brisket with spice packet, 7 small potatoes, peeled and diced 4 carrots, peeled and diced 3 cloves garlic, chopped 1 medium onion, diced", "instruction"=>"Step 1:<br> <br>Preheat the oven to 300 degrees F (150 degrees C).<br> <br>Step 2:<br> <br>Place the brisket in the center of a roasting pan. Arrange the potatoes and carrots around the sides. Place the onion and garlic on top of the roast, and season with salt and pepper. Empty the seasoning packet over the roast, and pour enough water into the pan to almost cover the potatoes. Cover with a lid or heavy aluminum foil.<br> <br>Step 3:<br> <br>Roast for 5 to 6 hours in the preheated oven, until the roast is so tender it can be flaked apart with a fork."}}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.2ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Step 1:<br> <br>Preheat the oven to 300 degrees F (150 degrees C).<br> <br>Step 2:<br> <br>Place the brisket in the center of a roasting pan. Arrange the potatoes and carrots around the sides. Place the onion and garlic on top of the roast, and season with salt and pepper. Empty the seasoning packet over the roast, and pour enough water into the pan to almost cover the potatoes. Cover with a lid or heavy aluminum foil.<br> <br>Step 3:<br> <br>Roast for 5 to 6 hours in the preheated oven, until the roast is so tender it can be flaked apart with a fork."], ["updated_at", "2022-03-22 15:40:20.753060"], ["id", 26]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 5.1ms | Allocations: 3580)
+
+
+Started GET "/api/v1/show/26" for 10.0.2.2 at 2022-03-22 15:40:20 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"26"}
+  [1m[36mRecipe Load (2.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 2.9ms | Allocations: 1057)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:40:29 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 5.0ms | ActiveRecord: 1.2ms | Allocations: 2136)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-22 15:40:33 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 2.2ms | Allocations: 1068)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:40:46 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 44ms (Views: 37.7ms | ActiveRecord: 2.3ms | Allocations: 2203)
+
+
+Started GET "/api/v1/show/9" for 10.0.2.2 at 2022-03-22 15:40:48 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mRecipe Load (4.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 30ms (Views: 3.7ms | ActiveRecord: 4.4ms | Allocations: 1135)
+
+
+Started GET "/recipe/view/9" for 10.0.2.2 at 2022-03-22 15:41:00 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/9"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 199)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-f5744c4ea7ff1aec7aeb.js
+clean-webpack-plugin: removed public/packs/js/Index-f5744c4ea7ff1aec7aeb.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 119fb10521c8d14e976a
+Version: webpack 4.46.0
+Time: 38500ms
+Built at: 03/22/2022 3:41:52 PM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-f60586d2c24fa2e82fac.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-f60586d2c24fa2e82fac.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-f60586d2c24fa2e82fac.js js/Index-f60586d2c24fa2e82fac.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51354.5ms | Allocations: 9437)
+Completed 200 OK in 51399ms (Views: 51384.0ms | ActiveRecord: 0.0ms | Allocations: 11122)
+
+
+Started GET "/api/v1/show/9" for 10.0.2.2 at 2022-03-22 15:41:52 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 1074)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 15:42:30 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 1.6ms | Allocations: 2208)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-22 18:20:08 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 22ms (Views: 0.7ms | ActiveRecord: 10.6ms | Allocations: 4212)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-22 18:20:15 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 1.6ms | Allocations: 1143)
+
+
+Started POST "/api/v1/update/25" for 10.0.2.2 at 2022-03-22 18:20:45 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1<br> <br>Preheat oven to 275 degrees F (135 degrees C).<br> <br><br> <br>Step 2<br> <br>Discard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!", "id"=>"25", "recipe"=>{"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1<br> <br>Preheat oven to 275 degrees F (135 degrees C).<br> <br><br> <br>Step 2<br> <br>Discard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"}}
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.3ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Step 1<br> <br>Preheat oven to 275 degrees F (135 degrees C).<br> <br><br> <br>Step 2<br> <br>Discard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"], ["updated_at", "2022-03-22 18:20:45.207981"], ["id", 25]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 5.2ms | Allocations: 3371)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-22 18:20:45 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 12ms (Views: 2.1ms | ActiveRecord: 2.0ms | Allocations: 1154)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 18:20:56 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (8.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 45ms (Views: 19.8ms | ActiveRecord: 8.4ms | Allocations: 2202)
+
+
+Started GET "/api/v1/show/1" for 10.0.2.2 at 2022-03-22 18:37:20 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 36.8ms | Allocations: 4094)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-22 18:37:25 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (3.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 31ms (Views: 24.9ms | ActiveRecord: 3.8ms | Allocations: 2127)
+
+
