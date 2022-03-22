@@ -9,9 +9,10 @@ export default (
   <Router>
     <Routes>
       <Route path="/" element={<Home/>} />
+      <Route path="/recipe/view/:id" element={<Recipe/>} />
       <Route path="/recipes" element={<Recipes/>} />
-      <Route path="/recipe/:id" element={<Recipe/>} />
-      <Route path="/recipe" exact component={NewRecipe} />
+      <Route path="/recipe" element={<NewRecipe/>} />
+      <Route path="/recipe/edit/:id" element={<NewRecipe/>} />
     </Routes>
   </Router>
 );

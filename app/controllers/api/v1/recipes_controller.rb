@@ -21,6 +21,15 @@ class Api::V1::RecipesController < ApplicationController
     end
   end
 
+  def update
+    recipe.update(recipe_params)
+    if recipe.save
+      render json: recipe
+    else
+      puts 'error saving!'
+    end
+  end
+
   def destroy
     recipe&.destroy
     render json: { message: 'Recipe deleted!' }

@@ -1,3 +1,7 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { withRouter } from "./withRouter";
+
 class NewRecipe extends React.Component {
   constructor(props) {
     super(props);
@@ -10,7 +14,21 @@ class NewRecipe extends React.Component {
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.stripHtmlEntities = this.stripHtmlEntities.bind(this);
+    this.fetchRecipe = this.fetchRecipe.bind(this)
   }
+
+  fetchRecipe() {
+    const url = `/api/v1/show/${this.props.id}`;
+    fetch(url)
+    .then (res => res.json())
+    .then (data =>  {
+      this.setState(data);
+    })
+    .catch (err => {
+      console.log(err);
+      this.props.navigate("/recipes");
+    })
+  };
 
   stripHtmlEntities(str) {
     return String(str)
@@ -24,9 +42,11 @@ class NewRecipe extends React.Component {
 
   onSubmit(event) {
     event.preventDefault();
-    const url = "/api/v1/recipes/create";
+    let url = "/api/v1/recipes/create"; // new recipe
+    if (this.props.id) {  // edit recipe
+      url = `/api/v1/update/${this.props.id}`;
+    }
     const { name, ingredients, instruction } = this.state;
-
     if (name.length == 0 || ingredients.length == 0 || instruction.length == 0)
       return;
 
@@ -35,7 +55,6 @@ class NewRecipe extends React.Component {
       ingredients,
       instruction: instruction.replace(/\n/g, "<br> <br>")
     };
-
     const token = document.querySelector('meta[name="csrf-token"]').content;
     fetch(url, {
       method: "POST",
@@ -51,18 +70,29 @@ class NewRecipe extends React.Component {
         }
         throw new Error("Network response was not ok.");
       })
-      .then(response => this.props.history.push(`/recipe/${response.id}`))
+      .then(response => this.props.navigate(`/recipe/view/${response.id}`))
       .catch(error => console.log(error.message));
   }
-
+  componentDidMount() {
+    if (this.props.id) {
+      this.fetchRecipe();
+    }
+  }
   render() {
+    console.log('recipe id: ', this.props.id);
+    console.log('recipe details: ', this.state);
     return (
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-12 col-lg-6 offset-lg-3">
+            {this.props.id &&
+            <h1 className="font-weight-normal mb-5">
+              Edit your recipe to update our awesome recipe collection.
+            </h1>}
+            {!this.props.id &&
             <h1 className="font-weight-normal mb-5">
               Add a new recipe to our awesome recipe collection.
-            </h1>
+            </h1>}
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
                 <label htmlFor="recipeName">Recipe name</label>
@@ -73,6 +103,7 @@ class NewRecipe extends React.Component {
                   className="form-control"
                   required
                   onChange={this.onChange}
+                  value={this.state.name}
                 />
               </div>
               <div className="form-group">
@@ -84,6 +115,7 @@ class NewRecipe extends React.Component {
                   className="form-control"
                   required
                   onChange={this.onChange}
+                  value={this.state.ingredients}
                 />
                 <small id="ingredientsHelp" className="form-text text-muted">
                   Separate each ingredient with a comma.
@@ -97,10 +129,16 @@ class NewRecipe extends React.Component {
                 rows="5"
                 required
                 onChange={this.onChange}
+                value={this.state.instruction}
               />
+              {!this.props.id &&
               <button type="submit" className="btn custom-button mt-3">
                 Create Recipe
-              </button>
+              </button>}
+              {this.props.id &&
+              <button type="submit" className="btn custom-button mt-3">
+                Save Recipe
+              </button>}
               <Link to="/recipes" className="btn btn-link mt-3">
                 Back to recipes
               </Link>
@@ -113,4 +151,4 @@ class NewRecipe extends React.Component {
 
 }
 
-export default NewRecipe;
+export default withRouter(NewRecipe);
