@@ -56,9 +56,9 @@ const Recipe = () => {
         </li>
       ));
   }
-  // const recipeInstruction = addHtmlEntities(recipe.instruction);
-  const recipeInstruction = recipe.instruction;
-
+  const recipeInstruction = addHtmlEntities(recipe.instruction);
+  // const recipeInstruction = recipe.instruction;
+  
   return (
     <div className="">
       <div className="hero position-relative d-flex align-items-center justify-content-center">
@@ -89,10 +89,10 @@ const Recipe = () => {
             />
           </div>
           <div className="col-sm-12 col-lg-2">
-            <button type="button" className="btn btn-warning" size='lg' onClick={()=>navigate(`/recipe/edit/${id}`)} >
-              Edit   Recipe
+            <button type="button" className="btn btn-primary" style={{ width: 160, margin: 10, marginLeft: 0 }} onClick={()=>navigate(`/recipe/edit/${id}`)} >
+              Edit Recipe
             </button>
-            <button type="button" className="btn btn-danger" size='lg' onClick={deleteRecipe}>
+            <button type="button" className="btn btn-danger" style={{ width:160, margin: 10, marginLeft: 0}} onClick={deleteRecipe}>
               Delete Recipe
             </button>
           </div>

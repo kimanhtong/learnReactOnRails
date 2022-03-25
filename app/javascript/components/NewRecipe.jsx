@@ -53,7 +53,7 @@ class NewRecipe extends React.Component {
     const body = {
       name,
       ingredients,
-      instruction: instruction.replace(/\n/g, "<br> <br>")
+      instruction: instruction.replace(/\n/g, "<br>")
     };
     const token = document.querySelector('meta[name="csrf-token"]').content;
     fetch(url, {

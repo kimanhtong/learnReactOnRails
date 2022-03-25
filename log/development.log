@@ -38414,3 +38414,1802 @@ Processing by Api::V1::RecipesController#index as */*
 Completed 200 OK in 31ms (Views: 24.9ms | ActiveRecord: 3.8ms | Allocations: 2127)
 
 
+Started GET "/" for 10.0.2.2 at 2022-03-25 01:49:52 +0000
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 201)
+[Webpacker] Compiling...
+Started GET "/ws" for 10.0.2.2 at 2022-03-25 01:49:54 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"ws"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-f60586d2c24fa2e82fac.js
+clean-webpack-plugin: removed public/packs/js/Index-f60586d2c24fa2e82fac.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: bf855ace14dc97d9cfaf
+Version: webpack 4.46.0
+Time: 55033ms
+Built at: 03/25/2022 1:51:03 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-2500603b6cba73fc00ce.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-2500603b6cba73fc00ce.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-2500603b6cba73fc00ce.js js/Index-2500603b6cba73fc00ce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71149.0ms | Allocations: 15150)
+Completed 200 OK in 71230ms (Views: 71163.3ms | ActiveRecord: 0.0ms | Allocations: 17692)
+
+
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-2500603b6cba73fc00ce.js
+clean-webpack-plugin: removed public/packs/js/Index-2500603b6cba73fc00ce.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: bf855ace14dc97d9cfaf
+Version: webpack 4.46.0
+Time: 52888ms
+Built at: 03/25/2022 1:51:04 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-2500603b6cba73fc00ce.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-2500603b6cba73fc00ce.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-2500603b6cba73fc00ce.js js/Index-2500603b6cba73fc00ce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 69886.1ms | Allocations: 20718)
+Completed 200 OK in 69896ms (Views: 69890.0ms | ActiveRecord: 0.0ms | Allocations: 21097)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 01:52:03 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (7.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 91ms (Views: 22.1ms | ActiveRecord: 19.2ms | Allocations: 6824)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 01:52:07 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 20ms (Views: 1.2ms | ActiveRecord: 5.0ms | Allocations: 1697)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 01:53:15 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-2500603b6cba73fc00ce.js
+clean-webpack-plugin: removed public/packs/js/Index-2500603b6cba73fc00ce.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 7e38511e651e27f6489d
+Version: webpack 4.46.0
+Time: 35158ms
+Built at: 03/25/2022 1:54:01 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-7be2554234cb34e43cc9.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-7be2554234cb34e43cc9.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-7be2554234cb34e43cc9.js js/Index-7be2554234cb34e43cc9.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46186.3ms | Allocations: 7186)
+Completed 200 OK in 46190ms (Views: 46189.3ms | ActiveRecord: 0.0ms | Allocations: 7560)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 01:54:01 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (3.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 3.3ms | Allocations: 1089)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 01:54:08 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 110.1ms | Allocations: 5732)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms | Allocations: 6107)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 01:54:08 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 14ms (Views: 0.8ms | ActiveRecord: 3.4ms | Allocations: 1181)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 01:57:37 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-7be2554234cb34e43cc9.js
+clean-webpack-plugin: removed public/packs/js/Index-7be2554234cb34e43cc9.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: eda1c00a41cb9cb1ef63
+Version: webpack 4.46.0
+Time: 37312ms
+Built at: 03/25/2022 1:58:29 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-64d08f7f0a0c77a68675.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-64d08f7f0a0c77a68675.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-64d08f7f0a0c77a68675.js js/Index-64d08f7f0a0c77a68675.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52338.8ms | Allocations: 7201)
+Completed 200 OK in 52341ms (Views: 52339.8ms | ActiveRecord: 0.0ms | Allocations: 7575)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 01:58:30 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 1.9ms | Allocations: 1075)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 01:59:10 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-64d08f7f0a0c77a68675.js
+clean-webpack-plugin: removed public/packs/js/Index-64d08f7f0a0c77a68675.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 07459bf6cbd4fb50b7a6
+Version: webpack 4.46.0
+Time: 32599ms
+Built at: 03/25/2022 1:59:56 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-7a64d20c4bbc7366af79.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-7a64d20c4bbc7366af79.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-7a64d20c4bbc7366af79.js js/Index-7a64d20c4bbc7366af79.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46443.4ms | Allocations: 7189)
+Completed 200 OK in 46446ms (Views: 46445.0ms | ActiveRecord: 0.0ms | Allocations: 7568)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 01:59:57 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 14ms (Views: 1.3ms | ActiveRecord: 2.3ms | Allocations: 1089)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:03:28 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-7a64d20c4bbc7366af79.js
+clean-webpack-plugin: removed public/packs/js/Index-7a64d20c4bbc7366af79.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: d4af894f0a8c795457b0
+Version: webpack 4.46.0
+Time: 36840ms
+Built at: 03/25/2022 2:04:19 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-b51ecfcef9ab39424f94.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-b51ecfcef9ab39424f94.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-b51ecfcef9ab39424f94.js js/Index-b51ecfcef9ab39424f94.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51301.6ms | Allocations: 7210)
+Completed 200 OK in 51304ms (Views: 51303.2ms | ActiveRecord: 0.0ms | Allocations: 7585)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:04:20 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 2.6ms | Allocations: 1155)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:04:26 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 140.8ms | Allocations: 5720)
+Completed 200 OK in 145ms (Views: 143.4ms | ActiveRecord: 0.0ms | Allocations: 6094)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:04:26 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 1.6ms | Allocations: 1156)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:06:29 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-b51ecfcef9ab39424f94.js
+clean-webpack-plugin: removed public/packs/js/Index-b51ecfcef9ab39424f94.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: d22844122b545b031ef0
+Version: webpack 4.46.0
+Time: 40295ms
+Built at: 03/25/2022 2:07:23 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-d391c2c584439f7c3396.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-d391c2c584439f7c3396.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-d391c2c584439f7c3396.js js/Index-d391c2c584439f7c3396.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53359.6ms | Allocations: 7213)
+Completed 200 OK in 53363ms (Views: 53361.5ms | ActiveRecord: 0.0ms | Allocations: 7589)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:07:23 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 1.2ms | Allocations: 1090)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:17:39 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-d391c2c584439f7c3396.js
+clean-webpack-plugin: removed public/packs/js/Index-d391c2c584439f7c3396.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 15cf2d0f79e24d8f71c7
+Version: webpack 4.46.0
+Time: 41771ms
+Built at: 03/25/2022 2:18:36 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-6d2810ab52efc7f46eab.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-6d2810ab52efc7f46eab.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-6d2810ab52efc7f46eab.js js/Index-6d2810ab52efc7f46eab.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57264.2ms | Allocations: 7227)
+Completed 200 OK in 57267ms (Views: 57266.0ms | Allocations: 7602)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:18:37 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 30ms (Views: 0.9ms | ActiveRecord: 15.9ms | Allocations: 4268)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:20:13 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-6d2810ab52efc7f46eab.js
+clean-webpack-plugin: removed public/packs/js/Index-6d2810ab52efc7f46eab.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 0102d0fc769b36579e0a
+Version: webpack 4.46.0
+Time: 41072ms
+Built at: 03/25/2022 2:21:10 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-fd782c337f433ecd5320.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-fd782c337f433ecd5320.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-fd782c337f433ecd5320.js js/Index-fd782c337f433ecd5320.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56903.8ms | Allocations: 7212)
+Completed 200 OK in 56907ms (Views: 56905.9ms | ActiveRecord: 0.0ms | Allocations: 7586)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:21:11 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 1.7ms | Allocations: 1078)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:22:05 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-fd782c337f433ecd5320.js
+clean-webpack-plugin: removed public/packs/js/Index-fd782c337f433ecd5320.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: fb3a571addd4284a89bb
+Version: webpack 4.46.0
+Time: 34949ms
+Built at: 03/25/2022 2:22:54 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-4987a3e6220c38437bd6.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-4987a3e6220c38437bd6.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-4987a3e6220c38437bd6.js js/Index-4987a3e6220c38437bd6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49672.8ms | Allocations: 7193)
+Completed 200 OK in 49678ms (Views: 49675.2ms | ActiveRecord: 0.0ms | Allocations: 7568)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:22:55 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (9.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 39ms (Views: 1.4ms | ActiveRecord: 9.5ms | Allocations: 1309)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 02:23:59 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-4987a3e6220c38437bd6.js
+clean-webpack-plugin: removed public/packs/js/Index-4987a3e6220c38437bd6.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: f3375863beaaf7ba5590
+Version: webpack 4.46.0
+Time: 27737ms
+Built at: 03/25/2022 2:24:38 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-31a2502e679ba65d0792.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-31a2502e679ba65d0792.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-31a2502e679ba65d0792.js js/Index-31a2502e679ba65d0792.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38592.4ms | Allocations: 7159)
+Completed 200 OK in 38594ms (Views: 38593.7ms | ActiveRecord: 0.0ms | Allocations: 7534)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 02:24:38 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 16ms (Views: 1.7ms | ActiveRecord: 2.8ms | Allocations: 1180)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:19:50 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-31a2502e679ba65d0792.js
+clean-webpack-plugin: removed public/packs/js/Index-31a2502e679ba65d0792.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 6fabfdf12f3c3b692f0c
+Version: webpack 4.46.0
+Time: 39723ms
+Built at: 03/25/2022 3:20:42 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-899f26a40f2076e3601f.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-899f26a40f2076e3601f.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-899f26a40f2076e3601f.js js/Index-899f26a40f2076e3601f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52136.1ms | Allocations: 7214)
+Completed 200 OK in 52159ms (Views: 52156.9ms | Allocations: 7590)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:20:42 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 48ms (Views: 0.5ms | ActiveRecord: 26.4ms | Allocations: 4277)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:22:10 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-899f26a40f2076e3601f.js
+clean-webpack-plugin: removed public/packs/js/Index-899f26a40f2076e3601f.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 835eb45f1dc60f1467bc
+Version: webpack 4.46.0
+Time: 34816ms
+Built at: 03/25/2022 3:22:59 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-e653e905d98e1f36415e.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-e653e905d98e1f36415e.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-e653e905d98e1f36415e.js js/Index-e653e905d98e1f36415e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49248.5ms | Allocations: 7202)
+Completed 200 OK in 49252ms (Views: 49250.2ms | ActiveRecord: 0.0ms | Allocations: 7577)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:22:59 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 1103)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:23:45 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-e653e905d98e1f36415e.js
+clean-webpack-plugin: removed public/packs/js/Index-e653e905d98e1f36415e.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: b4c12f2e67d36d8f59d4
+Version: webpack 4.46.0
+Time: 40274ms
+Built at: 03/25/2022 3:24:37 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-ddd553d6e1440bed91a5.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-ddd553d6e1440bed91a5.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-ddd553d6e1440bed91a5.js js/Index-ddd553d6e1440bed91a5.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51620.4ms | Allocations: 7201)
+Completed 200 OK in 51624ms (Views: 51622.2ms | ActiveRecord: 0.0ms | Allocations: 7575)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:24:37 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 1.3ms | Allocations: 1075)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:27:26 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-ddd553d6e1440bed91a5.js
+clean-webpack-plugin: removed public/packs/js/Index-ddd553d6e1440bed91a5.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 523472964e6ee2b9d71d
+Version: webpack 4.46.0
+Time: 34547ms
+Built at: 03/25/2022 3:28:14 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-6c7002ecc1070d8da668.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-6c7002ecc1070d8da668.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-6c7002ecc1070d8da668.js js/Index-6c7002ecc1070d8da668.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48595.9ms | Allocations: 7194)
+Completed 200 OK in 48599ms (Views: 48597.1ms | ActiveRecord: 0.0ms | Allocations: 7568)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:28:15 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.5ms | Allocations: 1090)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:28:38 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 6.5ms | ActiveRecord: 2.8ms | Allocations: 2139)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:28:42 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 1.2ms | ActiveRecord: 1.3ms | Allocations: 1095)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:31:12 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-6c7002ecc1070d8da668.js
+clean-webpack-plugin: removed public/packs/js/Index-6c7002ecc1070d8da668.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 1afdcb41cdc62bd72f06
+Version: webpack 4.46.0
+Time: 33408ms
+Built at: 03/25/2022 3:31:59 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-8fbf538d0cbf03faa6f0.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-8fbf538d0cbf03faa6f0.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-8fbf538d0cbf03faa6f0.js js/Index-8fbf538d0cbf03faa6f0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46679.5ms | Allocations: 7200)
+Completed 200 OK in 46683ms (Views: 46681.8ms | ActiveRecord: 0.0ms | Allocations: 7575)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:31:59 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 1.7ms | Allocations: 1085)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:36:01 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 129.4ms | Allocations: 5730)
+Completed 200 OK in 132ms (Views: 131.2ms | ActiveRecord: 0.0ms | Allocations: 6105)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:36:02 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 2.4ms | Allocations: 1090)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:39:06 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-8fbf538d0cbf03faa6f0.js
+clean-webpack-plugin: removed public/packs/js/Index-8fbf538d0cbf03faa6f0.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 86954fe64317afb72c4d
+Version: webpack 4.46.0
+Time: 38314ms
+Built at: 03/25/2022 3:39:59 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-061cc787b6beefa5c54d.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-061cc787b6beefa5c54d.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-061cc787b6beefa5c54d.js js/Index-061cc787b6beefa5c54d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53358.6ms | Allocations: 7212)
+Completed 200 OK in 53362ms (Views: 53360.3ms | ActiveRecord: 0.0ms | Allocations: 7587)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:39:59 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 3.4ms | Allocations: 1103)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:41:34 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-061cc787b6beefa5c54d.js
+clean-webpack-plugin: removed public/packs/js/Index-061cc787b6beefa5c54d.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 39e8876de62ceee6decb
+Version: webpack 4.46.0
+Time: 39902ms
+Built at: 03/25/2022 3:42:26 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-a3e273998f9be42f4db8.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-a3e273998f9be42f4db8.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-a3e273998f9be42f4db8.js js/Index-a3e273998f9be42f4db8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52231.5ms | Allocations: 7203)
+Completed 200 OK in 52235ms (Views: 52233.9ms | ActiveRecord: 0.0ms | Allocations: 7578)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:42:27 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 1.5ms | ActiveRecord: 1.3ms | Allocations: 1089)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:42:44 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 4.2ms | ActiveRecord: 1.5ms | Allocations: 2155)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:42:46 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.8ms | Allocations: 1076)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:42:58 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 1076)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:43:04 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 1.2ms | Allocations: 2150)
+
+
+Started GET "/api/v1/show/9" for 10.0.2.2 at 2022-03-25 03:43:08 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mRecipe Load (2.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 15ms (Views: 1.2ms | ActiveRecord: 2.7ms | Allocations: 1134)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:43:30 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 8.1ms | ActiveRecord: 1.6ms | Allocations: 2149)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:43:44 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.9ms | Allocations: 1089)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:43:58 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 30ms (Views: 25.4ms | ActiveRecord: 2.1ms | Allocations: 2199)
+
+
+Started POST "/api/v1/recipes/create" for 10.0.2.2 at 2022-03-25 03:44:40 +0000
+Processing by Api::V1::RecipesController#create as */*
+  Parameters: {"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"fdsfds", "recipe"=>{"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"fdsfds"}}
+[31mUnpermitted parameter: :recipe[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+  [1m[36mRecipe Create (1.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instruction", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "fdsf"], ["ingredients", "fdsfds"], ["instruction", "fdsfds"], ["created_at", "2022-03-25 03:44:40.105129"], ["updated_at", "2022-03-25 03:44:40.105129"]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 7.2ms | Allocations: 2894)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:44:40 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 1.1ms | Allocations: 1117)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:44:45 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (4.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 25ms (Views: 7.0ms | ActiveRecord: 4.2ms | Allocations: 1107)
+
+
+Started POST "/api/v1/update/42" for 10.0.2.2 at 2022-03-25 03:44:52 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"fdsfds<br> <br>hjk<br> <br>k;kl;<br> <br>lk'kl", "id"=>"42", "recipe"=>{"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"fdsfds<br> <br>hjk<br> <br>k;kl;<br> <br>lk'kl"}}
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.5ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "fdsfds<br> <br>hjk<br> <br>k;kl;<br> <br>lk'kl"], ["updated_at", "2022-03-25 03:44:52.303148"], ["id", 42]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 5.5ms | Allocations: 3364)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:44:52 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 1039)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:44:57 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.3ms | Allocations: 1038)
+
+
+Started POST "/api/v1/update/42" for 10.0.2.2 at 2022-03-25 03:45:09 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"Test. Test. TEst.", "id"=>"42", "recipe"=>{"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"Test. Test. TEst."}}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.4ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Test. Test. TEst."], ["updated_at", "2022-03-25 03:45:09.775560"], ["id", 42]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 5.3ms | Allocations: 3305)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:45:09 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 1037)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:45:15 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 2.2ms | Allocations: 1020)
+
+
+Started POST "/api/v1/update/42" for 10.0.2.2 at 2022-03-25 03:45:21 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"Test.<br> <br>Test. TEst.", "id"=>"42", "recipe"=>{"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"Test.<br> <br>Test. TEst."}}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.3ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Test.<br> <br>Test. TEst."], ["updated_at", "2022-03-25 03:45:21.606965"], ["id", 42]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 4.4ms | Allocations: 3313)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:45:21 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 1.1ms | Allocations: 1041)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:45:23 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 1046)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:45:27 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 1.7ms | Allocations: 2331)
+
+
+Started GET "/recipes" for 10.0.2.2 at 2022-03-25 03:46:11 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipes"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-a3e273998f9be42f4db8.js
+clean-webpack-plugin: removed public/packs/js/Index-a3e273998f9be42f4db8.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 5c8f7a0777cac9e64ee2
+Version: webpack 4.46.0
+Time: 35703ms
+Built at: 03/25/2022 3:47:00 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-aca3c316a35490c05350.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-aca3c316a35490c05350.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-aca3c316a35490c05350.js js/Index-aca3c316a35490c05350.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49511.9ms | Allocations: 7206)
+Completed 200 OK in 49514ms (Views: 49513.0ms | ActiveRecord: 0.0ms | Allocations: 7582)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:47:01 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 43ms (Views: 38.6ms | ActiveRecord: 1.6ms | Allocations: 2256)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:47:06 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 1.3ms | Allocations: 2259)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:47:07 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 1105)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:47:09 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 1043)
+
+
+Started POST "/api/v1/update/42" for 10.0.2.2 at 2022-03-25 03:47:15 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"Test.<br> <br>Test.<br> <br>TEst.", "id"=>"42", "recipe"=>{"name"=>"fdsf", "ingredients"=>"fdsfds", "instruction"=>"Test.<br> <br>Test.<br> <br>TEst."}}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.6ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Test.<br> <br>Test.<br> <br>TEst."], ["updated_at", "2022-03-25 03:47:15.468350"], ["id", 42]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 5.3ms | Allocations: 3323)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:47:15 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 1044)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:47:18 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 2.1ms | Allocations: 1108)
+
+
+Started GET "/recipe/edit/42" for 10.0.2.2 at 2022-03-25 03:48:57 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/edit/42"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:49:03 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 1.1ms | Allocations: 2269)
+
+
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-aca3c316a35490c05350.js
+clean-webpack-plugin: removed public/packs/js/Index-aca3c316a35490c05350.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: da961a49afac4873dc1e
+Version: webpack 4.46.0
+Time: 36740ms
+Built at: 03/25/2022 3:49:46 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-e3e7990ff11b34f6dc81.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-e3e7990ff11b34f6dc81.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-e3e7990ff11b34f6dc81.js js/Index-e3e7990ff11b34f6dc81.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49674.2ms | Allocations: 13904)
+Completed 200 OK in 49683ms (Views: 49680.7ms | ActiveRecord: 0.0ms | Allocations: 14278)
+
+
+Started GET "/api/v1/show/42" for 10.0.2.2 at 2022-03-25 03:49:47 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mRecipe Load (7.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 30ms (Views: 1.1ms | ActiveRecord: 7.9ms | Allocations: 1078)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:50:08 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (9.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 44ms (Views: 20.5ms | ActiveRecord: 9.7ms | Allocations: 2352)
+
+
+Started POST "/api/v1/recipes/create" for 10.0.2.2 at 2022-03-25 03:50:16 +0000
+Processing by Api::V1::RecipesController#create as */*
+  Parameters: {"name"=>"vd", "ingredients"=>"vd", "instruction"=>"dsv<br>gdsg<br>dgsd<br>g<br>sd<br>dfs", "recipe"=>{"name"=>"vd", "ingredients"=>"vd", "instruction"=>"dsv<br>gdsg<br>dgsd<br>g<br>sd<br>dfs"}}
+[31mUnpermitted parameter: :recipe[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+  [1m[36mRecipe Create (2.1ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instruction", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "vd"], ["ingredients", "vd"], ["instruction", "dsv<br>gdsg<br>dgsd<br>g<br>sd<br>dfs"], ["created_at", "2022-03-25 03:50:16.471101"], ["updated_at", "2022-03-25 03:50:16.471101"]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 4.2ms | Allocations: 2678)
+
+
+Started GET "/api/v1/show/43" for 10.0.2.2 at 2022-03-25 03:50:16 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"43"}
+  [1m[36mRecipe Load (3.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 3.0ms | Allocations: 1095)
+
+
+Started GET "/api/v1/show/43" for 10.0.2.2 at 2022-03-25 03:50:21 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"43"}
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 2.2ms | Allocations: 1134)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:50:29 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 1.8ms | Allocations: 2395)
+
+
+Started GET "/recipes" for 10.0.2.2 at 2022-03-25 03:51:10 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipes"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-e3e7990ff11b34f6dc81.js
+clean-webpack-plugin: removed public/packs/js/Index-e3e7990ff11b34f6dc81.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: e0a0fb3f31c2b57f7550
+Version: webpack 4.46.0
+Time: 38150ms
+Built at: 03/25/2022 3:52:03 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-10150d244fe3990043e4.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-10150d244fe3990043e4.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-10150d244fe3990043e4.js js/Index-10150d244fe3990043e4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53306.3ms | Allocations: 7212)
+Completed 200 OK in 53310ms (Views: 53308.8ms | ActiveRecord: 0.0ms | Allocations: 7587)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:52:03 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 8.5ms | ActiveRecord: 2.1ms | Allocations: 2400)
+
+
+Started POST "/api/v1/recipes/create" for 10.0.2.2 at 2022-03-25 03:52:15 +0000
+Processing by Api::V1::RecipesController#create as */*
+  Parameters: {"name"=>"cxz", "ingredients"=>"fdsf", "instruction"=>"dsf\ndf\ndfsdfs\ndfsdfsf\nsdfsf", "recipe"=>{"name"=>"cxz", "ingredients"=>"fdsf", "instruction"=>"dsf\ndf\ndfsdfs\ndfsdfsf\nsdfsf"}}
+[31mUnpermitted parameter: :recipe[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+  [1m[36mRecipe Create (1.0ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instruction", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "cxz"], ["ingredients", "fdsf"], ["instruction", "dsf\ndf\ndfsdfs\ndfsdfsf\nsdfsf"], ["created_at", "2022-03-25 03:52:15.539216"], ["updated_at", "2022-03-25 03:52:15.539216"]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `create'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 5.4ms | Allocations: 2663)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:52:15 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (3.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 13ms (Views: 0.9ms | ActiveRecord: 3.2ms | Allocations: 1083)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:52:19 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 1.9ms | Allocations: 1111)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:52:24 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 2.5ms | Allocations: 2574)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:52:26 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (3.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 16ms (Views: 1.6ms | ActiveRecord: 3.0ms | Allocations: 1036)
+
+
+Started GET "/recipe/view/44" for 10.0.2.2 at 2022-03-25 03:53:14 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/44"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-10150d244fe3990043e4.js
+clean-webpack-plugin: removed public/packs/js/Index-10150d244fe3990043e4.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: bd8842a80aead34d4bbc
+Version: webpack 4.46.0
+Time: 35012ms
+Built at: 03/25/2022 3:54:02 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-ae02a8808636425189f8.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-ae02a8808636425189f8.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-ae02a8808636425189f8.js js/Index-ae02a8808636425189f8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47818.9ms | Allocations: 7191)
+Completed 200 OK in 47821ms (Views: 47820.2ms | ActiveRecord: 0.0ms | Allocations: 7565)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:54:03 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 1036)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:54:06 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 1.6ms | Allocations: 2498)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:54:08 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 1.4ms | Allocations: 1029)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:54:10 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 1111)
+
+
+Started POST "/api/v1/update/44" for 10.0.2.2 at 2022-03-25 03:54:12 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"cxz", "ingredients"=>"fdsf", "instruction"=>"dsf\ndf\ndfsdfs\ndfsdfsf\nsdfsf", "id"=>"44", "recipe"=>{"name"=>"cxz", "ingredients"=>"fdsf", "instruction"=>"dsf\ndf\ndfsdfs\ndfsdfsf\nsdfsf"}}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 1.3ms | Allocations: 1339)
+
+
+Started GET "/api/v1/show/44" for 10.0.2.2 at 2022-03-25 03:54:12 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 1024)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:54:16 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (3.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 7.1ms | ActiveRecord: 3.1ms | Allocations: 2564)
+
+
+Started GET "/api/v1/show/43" for 10.0.2.2 at 2022-03-25 03:54:18 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"43"}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 1.4ms | Allocations: 1110)
+
+
+Started GET "/api/v1/recipes/index" for 10.0.2.2 at 2022-03-25 03:54:20 +0000
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY "recipes"."created_at" DESC[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 2.2ms | Allocations: 2487)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:54:22 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 1082)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:54:27 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 1076)
+
+
+Started POST "/api/v1/update/25" for 10.0.2.2 at 2022-03-25 03:54:48 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!", "id"=>"25", "recipe"=>{"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"}}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.0ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"], ["updated_at", "2022-03-25 03:54:48.552087"], ["id", 25]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 4.2ms | Allocations: 3348)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:54:48 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.3ms | Allocations: 1070)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:55:40 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-ae02a8808636425189f8.js
+clean-webpack-plugin: removed public/packs/js/Index-ae02a8808636425189f8.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: cde5d154f10ad2361f03
+Version: webpack 4.46.0
+Time: 36968ms
+Built at: 03/25/2022 3:56:29 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-8e3266b51821cd1d3976.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-8e3266b51821cd1d3976.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-8e3266b51821cd1d3976.js js/Index-8e3266b51821cd1d3976.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49526.1ms | Allocations: 7203)
+Completed 200 OK in 49530ms (Views: 49528.5ms | ActiveRecord: 0.0ms | Allocations: 7580)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:56:30 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 1153)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:56:34 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.8ms | Allocations: 1140)
+
+
+Started POST "/api/v1/update/25" for 10.0.2.2 at 2022-03-25 03:56:41 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!", "id"=>"25", "recipe"=>{"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.<br> <br><br> <br>Step 3<br> <br>Place brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"}}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 1382)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:56:41 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 1138)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:56:44 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.3ms | Allocations: 1063)
+
+
+Started POST "/api/v1/update/25" for 10.0.2.2 at 2022-03-25 03:57:00 +0000
+Processing by Api::V1::RecipesController#update as */*
+  Parameters: {"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.\nStep 3\nPlace brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!", "id"=>"25", "recipe"=>{"name"=>"Braised Corned Beef Brisket", "ingredients"=>"1 (5 pound) flat-cut corned beef brisket, 1 tablespoon browning sauce (such as Kitchen Bouquet®) or as desired, 1 tablespoon vegetable oil, 1 onion, sliced 6 cloves garlic, sliced 2 tablespoons water", "instruction"=>"Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.\nStep 3\nPlace brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"}}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+[31mUnpermitted parameters: :id, :recipe[0m
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mRecipe Update (1.0ms)[0m  [1m[33mUPDATE "recipes" SET "instruction" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["instruction", "Step 1\nPreheat oven to 275 degrees F (135 degrees C).\nStep 2\nDiscard any flavoring packet from corned beef. Brush brisket with browning sauce on both sides. Heat vegetable oil in a large skillet over medium-high heat and brown brisket on both sides in the hot oil, 5 to 8 minutes per side.\nStep 3\nPlace brisket on a rack set in a roasting pan. Scatter onion and garlic slices over brisket and add water to roasting pan. Cover pan tightly with aluminum foil.<br> <br><br> <br>Step 4<br> <br>Roast in the preheated oven until meat is tender, about 6 hours.<br> <br>Step 5<br> <br>Enjoy!!!"], ["updated_at", "2022-03-25 03:57:00.690280"], ["id", 25]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:25:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 4.3ms | Allocations: 3337)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:57:00 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 1053)
+
+
+Started GET "/recipe/view/25" for 10.0.2.2 at 2022-03-25 03:58:33 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/view/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-8e3266b51821cd1d3976.js
+clean-webpack-plugin: removed public/packs/js/Index-8e3266b51821cd1d3976.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 6473b747df25d4e6a602
+Version: webpack 4.46.0
+Time: 43473ms
+Built at: 03/25/2022 3:59:29 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-65c39952f8bd1258e3e2.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-65c39952f8bd1258e3e2.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-65c39952f8bd1258e3e2.js js/Index-65c39952f8bd1258e3e2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56597.9ms | Allocations: 7222)
+Completed 200 OK in 56601ms (Views: 56600.0ms | ActiveRecord: 0.0ms | Allocations: 7599)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:59:30 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 16ms (Views: 1.7ms | ActiveRecord: 3.4ms | Allocations: 1060)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 03:59:41 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 1.0ms | Allocations: 1063)
+
+
+Started GET "/recipe/edit/25" for 10.0.2.2 at 2022-03-25 04:00:34 +0000
+Processing by HomepageController#index as HTML
+  Parameters: {"path"=>"recipe/edit/25"}
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /vagrant/PostLHL/ReactOnRails/rails_react_recipe/public/packs
+[Webpacker] clean-webpack-plugin: removed public/packs/js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js
+clean-webpack-plugin: removed public/packs/js/application-19ade39cc333985062bf.js.map
+clean-webpack-plugin: removed public/packs/js/Index-65c39952f8bd1258e3e2.js
+clean-webpack-plugin: removed public/packs/js/Index-65c39952f8bd1258e3e2.js.map
+clean-webpack-plugin: removed public/packs/manifest.json
+
+[Webpacker] Hash: 011450de9e71eb5880e5
+Version: webpack 4.46.0
+Time: 36501ms
+Built at: 03/25/2022 4:01:23 AM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-78cb1786bfe501ae7240.js   2.46 MiB        Index  [emitted] [immutable]  Index
+      js/Index-78cb1786bfe501ae7240.js.map   2.72 MiB        Index  [emitted] [dev]        Index
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+Entrypoint Index = js/Index-78cb1786bfe501ae7240.js js/Index-78cb1786bfe501ae7240.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 734 bytes {Index} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 2.36 KiB {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {Index} [built]
+    + 29 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48442.2ms | Allocations: 7195)
+Completed 200 OK in 48445ms (Views: 48444.2ms | ActiveRecord: 0.0ms | Allocations: 7571)
+
+
+Started GET "/api/v1/show/25" for 10.0.2.2 at 2022-03-25 04:01:23 +0000
+Processing by Api::V1::RecipesController#show as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:45:in `recipe'
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 1068)
+
+
